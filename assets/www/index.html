@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testapp JQ Mobile</title>
+    
+	<link rel="stylesheet"  href="css/jquery.mobile.min.css">
+	<link rel="stylesheet" href="css/jqm-demos.css">
+	<link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/me.js"></script>
+	<script src="js/jquery.mobile-1.3.1.js"></script>
+</head>
+<body>
+
+	<div data-role="page" id="demo-page" data-theme="d">
+
+	    <div data-role="header" data-theme="a">
+	        <h1>Bikes App</h1>
+	        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+	    </div><!-- /header -->
+
+	    <div data-role="content">
+
+	    	<div class="article">
+	    		<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/79/BMW_S1000_RR_Studio.JPG/800px-BMW_S1000_RR_Studio.JPG" alt="Fixed Gear bike"></p>
+
+	            <h2>Bikes around the world</h2>
+
+	            <p>A fixed-gear or fixed-wheel bicycle, commonly known as a fixie, is a bicycle that has a drivetrain with no freewheel mechanism. The freewheel was developed early in the history of bicycle design but the fixed-gear bicycle remained the standard track racing design. More recently the 'fixie' has become a popular alternative among mainly urban cyclists, offering the advantages of simplicity compared with the standard multi-geared bicycle.</p>
+
+	            <p><small>Source: Wikipedia</small></p>
+
+	            <p><a href="#right-panel" data-role="button" data-theme="b" data-inline="true" data-mini="true" data-shadow="false">Share</a></p>
+
+			</div><!-- /article -->
+
+	    </div><!-- /content -->
+
+	    <div data-role="panel" id="left-panel" data-theme="c">
+	        <ul data-role="listview" data-theme="d">
+	        	<li><a href="#demo-page">Demo intro</a></li>
+	        	<li><a href="#road">List (hardcoded)</a></li>
+	        	<li><a href="#offroad">List (JSON-File) more text to show the line break</a></li>
+	        </ul>
+	    </div><!-- /panel -->
+
+	    <div data-role="panel" id="right-panel" data-display="overlay" data-position="right" data-theme="c">
+	        <ul data-role="listview" data-theme="d" data-icon="false">
+	            <li><a href="#">Twitter</a></li>
+	            <li><a href="#">Facebook</a></li>
+	            <li><a href="#">Google +</a></li>
+	            <li><a href="#">Mail</a></li>
+	        </ul>
+	    </div><!-- /panel -->
+
+	</div><!-- /page -->
+
+
+	<div data-role="page" id="road" data-theme="d">
+
+	    <div data-role="header" data-theme="a">
+	        <h1>Bikes</h1>
+	        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+	    </div><!-- /header -->
+
+	    <div data-role="content">
+
+	    	<ul data-role="listview" data-autodividers="true" data-inset="true">
+	    		<li><a href="#demo-page">A "Back-Button" to Demo Page</a></li>
+			    <li><a href="#">Alex Wickerham</a></li>
+			    <li><a href="#">Avery Johnson</a></li>
+			    <li><a href="#">Alex Wickerham</a></li>
+			    <li><a href="#">Avery Johnson</a></li>
+			    <li><a href="#">Alex Wickerham</a></li>
+			    <li><a href="#">Avery Johnson</a></li>
+			    <li><a href="#">Alex Wickerham</a></li>
+			    <li><a href="#">Avery Johnson</a></li>
+			    <li><a href="#">Alex Wickerham</a></li>
+			    <li><a href="#">Avery Johnson</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Bob Cabot</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			    <li><a href="#">Caleb Booth</a></li>
+			    <li><a href="#">Christopher Adams</a></li>
+			    <li><a href="#">Culver James</a></li>
+			</ul>
+	    </div><!-- /content -->
+
+
+	    <div data-role="panel" id="left-panel" data-theme="c">
+	        <ul data-role="listview" data-theme="d">
+	        	<li><a href="#demo-page">Demo intro</a></li>
+	        	<li><a href="#road">List (hardcoded)</a></li>
+	        	<li><a href="#offroad">List (JSON-File)</a></li>
+	        </ul>
+	    </div><!-- /panel -->
+
+
+	    <div data-role="panel" id="right-panel" data-display="overlay" data-position="right" data-theme="c">
+
+	        <ul data-role="listview" data-theme="d" data-icon="false">
+	        	<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+	        	<li data-role="list-divider">Share this page</li>
+	            <li><a href="#">Twitter</a></li>
+	            <li><a href="#">Facebook</a></li>
+	            <li><a href="#">Google +</a></li>
+	            <li><a href="#">Mail</a></li>
+	        </ul>
+	    </div><!-- /panel -->
+	</div><!-- /page -->
+
+
+	<div data-role="page" id="offroad" data-theme="d">
+
+	    <div data-role="header" data-theme="a">
+	        <h1>Bikes</h1>
+	        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+	    </div><!-- /header -->
+
+	    <div data-role="content">
+			<ul id="dataList" data-role="listview" data-inset="true" data-filter="true">
+					
+			</ul>
+	    </div><!-- /content -->
+
+
+	    <div data-role="panel" id="left-panel" data-theme="c">
+	        <ul data-role="listview" data-theme="d">
+	        	<li><a href="#demo-page">Demo intro</a></li>
+	        	<li><a href="#road">List (hardcoded)</a></li>
+	        	<li><a href="#offroad">List (JSON-File)</a></li>
+	        </ul>
+	    </div><!-- /panel -->
+
+
+	    <div data-role="panel" id="right-panel" data-display="overlay" data-position="right" data-theme="c">
+
+	        <ul data-role="listview" data-theme="d" data-icon="false">
+	        	<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+	        	<li data-role="list-divider">Share this page</li>
+	            <li><a href="#">Twitter</a></li>
+	            <li><a href="#">Facebook</a></li>
+	            <li><a href="#">Google +</a></li>
+	            <li><a href="#">Mail</a></li>
+	        </ul>
+	    </div><!-- /panel -->
+	</div><!-- /page -->
+
+</body>
+</html>

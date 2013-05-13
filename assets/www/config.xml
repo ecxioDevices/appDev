@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10" 
+        version   = "0.0.162">
+
+    <access origin="*.google.com" />
+    <access origin="*.googleapis.com" />
+    <access origin="*.gstatic.com" />
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Sunn Leidn</name>
+
+    <description>
+        An example for phonegap build docs. 
+    </description>
+
+    <author email="turek.alex@gmail.com">
+        Alexander Turek 
+    </author>
+
+    <preference name="phonegap-version" value="2.2.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="handset" />
+
+    <gap:splash src="appImg/android/Default.png" />
+
+    <!-- IOS Specific -->
+    <preference name="stay-in-webview" value="true" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="show-splash-screen-spinner" value="false" />
+
+    <icon src="appImg/ios/appIcon.png" width="57" height="57" />
+    <icon src="appImg/ios/appIcon_at_2x.png" width="114" height="114" />
+
+    <gap:splash src="appImg/ios/Default~iphone.png" width="320" height="480" />
+    <gap:splash src="appImg/ios/Default_at_2x~iphone.png" width="640" height="960" />
+
+    <!-- Android Specific -->
+    <preference name="android-minSdkVersion" value="8" />
+
+    <icon src="appImg/android/appIcon.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="appImg/android/appIcon.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="appImg/android/appIcon.png" gap:platform="android" gap:density="hdpi" />
+
+    <gap:splash src="appImg/android/Default.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="appImg/android/Default.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="appImg/android/Default.png" gap:platform="android" gap:density="hdpi" />
+
+</widget>
