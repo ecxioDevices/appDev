@@ -26,14 +26,14 @@ $("body").on("pageinit", "#offroad", function(evt, ui) {
 
 $(document).ready(function() {
 
-    $.getJSON('http://10.0.10.24/listData.json', function(data) {
+    $.getJSON('dataSources/listData.json', function(data) {
         var items = [];
 
         console.log("test");
         console.log(data);
 
         $.each(data, function(key, val) {
-            items.push('<li><a href="#" rel="external"><img height="80px" src="'+val['thumbimg']+'"><h2 title="'+val['title']+'" >'+val['title']+'</h2><p>'+val['description']+'</p></a></li>');
+            items.push('<li><a href="'+val['link']+'" rel="external"><img height="80px" src="'+val['thumbimg']+'"><h2 title="'+val['title']+'" >'+val['title']+'</h2><p>'+val['description']+'</p></a></li>');
         });
 
         $("#dataList").html(items.join(''));

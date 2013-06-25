@@ -1,7 +1,8 @@
 [{
-	"title":"Testeintrag 1",
+	"title":"Link zurück zur Startseite",
 	"description":"08.05.2013",
-	"thumbimg":"http://upload.wikimedia.org/wikipedia/commons/7/79/BMW_S1000_RR_Studio.JPG"
+	"thumbimg":"http://upload.wikimedia.org/wikipedia/commons/7/79/BMW_S1000_RR_Studio.JPG",
+	"link":"#demo-page"
 },
 {
 	"title":"Testeintrag 2",
