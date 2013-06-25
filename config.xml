@@ -11,13 +11,13 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>BikeTestApp</name>
+    <name>Bike Test App</name>
 
     <description>
         An example for phonegap build docs. 
     </description>
 
-    <author email="ecx.at.devices@gmail.com">
+    <author email="turek.alex@gmail.com">
         Alexander Turek 
     </author>
 
