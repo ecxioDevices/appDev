@@ -26,7 +26,7 @@ $("body").on("pageinit", "#offroad", function(evt, ui) {
 
 $(document).ready(function() {
 
-    $.getJSON('dataSources/listData.json', function(data) {
+    $.getJSON('http://10.0.10.24/listData.json', function(data) {
         var items = [];
 
         console.log("test");
