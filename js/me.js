@@ -52,14 +52,13 @@ $(document).ready(function() {
         PHONEGAP FUNCTIONS
    ************************************** */
 document.addEventListener("deviceready", onDeviceReady, false);
-
 // PhoneGap is loaded and it is now safe to make calls PhoneGap methods
 //
 function onDeviceReady() {
     checkConnection();
 }
 
-function checkConnection() {
+//function checkConnection() {
     var networkState = navigator.network.connection.type;
 
     var states = {};
@@ -72,4 +71,6 @@ function checkConnection() {
     states[Connection.NONE]     = 'No network connection';
 
     alert('Connection type: ' + states[networkState]);
-}
+//}
+
+//onDeviceReady();
