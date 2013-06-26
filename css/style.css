@@ -22,12 +22,16 @@ h1, h2, h3, h4, h5, h6 {
 p { text-shadow: none; }
 
 
+.ui-field-contain.width70 { width: 70%; padding-right: 5%; float: left; }
+.ui-field-contain.width30 { width: 25%; float: left; clear: none; }
 
+.ui-field-contain .ui-controlgroup-label { width: 100%; margin: 0 0 10px; }
+.ui-field-contain .ui-controlgroup-controls { width: 100%; }
 
+.ui-field-contain label.ui-slider { width: 100%; margin: 0 0 10px; }
+.ui-field-contain div.ui-slider { width: 100%; }
 
-
-
-
+.ui-field-contain .ui-btn.ui-submit { width: 100%; }
 
 
 
